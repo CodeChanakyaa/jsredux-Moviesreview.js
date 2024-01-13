@@ -1,5 +1,5 @@
 # How to install & run ?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+First clone this repo in your pc using following cammand :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+$ git clone https://github.com/CodeChanakyaa/jsredux-Moviesreview.js.git
