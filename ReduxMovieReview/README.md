@@ -1,5 +1,11 @@
 # How to install & run ?
 
-First clone this repo in your pc using following cammand :
+First clone the repository from Github and switch to the new directory:
 
-  $git clone https://github.com/CodeChanakyaa/jsredux-Moviesreview.js.git
+    $ git clone https://github.com/CodeChanakyaa/jsredux-Moviesreview.js
+    
+Now change directory to:
+
+    $ cd jsredux-Moviesreview.js
+    $ cd ReduxMovieReview
+    
