@@ -8,4 +8,7 @@ Now change directory to:
 
     $ cd jsredux-Moviesreview.js
     $ cd ReduxMovieReview
-    
+
+Run application using following command:
+
+    $ npm run dev
