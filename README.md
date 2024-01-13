@@ -12,3 +12,5 @@ Now change directory to:
 Run application using following command:
 
     $ npm run dev
+
+In case running applicaltion in pc change api header from "https" to "http"
