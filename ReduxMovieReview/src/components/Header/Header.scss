@@ -9,6 +9,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -17,7 +18,66 @@
     font-weight: 600;
 }
 
-.user-image, .user-image img {
+.user-image,
+.user-image img {
     width: 35px;
     height: 35px;
+}
+
+.search-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    form {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+
+        button {
+            padding: 0px 14px;
+            font-size: 20px;
+            cursor: pointer;
+            height: 38px;
+            outline: none;
+            border: none;
+            background: white;
+            border-radius: 0 5px 5px 0;
+        }
+    }
+}
+
+input {
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 5px 5px 14px;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-box {
+        width: 400px;
+
+        form {
+            width: 76%;
+
+            button {
+                width: 24%;
+                padding: 0px 14px;
+                font-size: 14px;
+                cursor: pointer;
+                height: 32px;
+            }
+        }
+    }
+
+    input {
+        font-size: 14px;
+        width: 100%;
+        padding: 5px 5px 5px 10px;
+        height: 32px;
+    }
 }
